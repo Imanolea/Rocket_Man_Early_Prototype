@@ -9,7 +9,6 @@ const int JUMPFRAME = 4; // frame of the jump
 const int ROCKETFRAME = 5; // frame of the rockets
 const int FRAMESLENGTH = 12; // number of total frames
 
-const int PERFRAME = 34; // milliseconds per iteration (34)
 const int NORMALSPEED = 2; // speed of the sprite without pressing b
 const int POWEREDSPEED = 3; // speed of the sprite pressing b
 const int NORMALJUMPHEIGHT = 8; // jump height with normal speed
@@ -155,7 +154,8 @@ void moveoutsp() {
 	move_sprite(1, 200, 200);
 }
 
-/* sets the sprite orientation */
+/* sets the sprite orientation 
+arg(0): dictates if the orientation to represent is left (true) or not (false) */
 void setorientation(bool left) {
 
 	if (left) {
@@ -201,7 +201,8 @@ void animate() {
 
 }
 
-/* process the input */
+/* process the input 
+arg(0): array with a list of boolean values that dictates the keys pressed*/
 void processinput(bool* keys) {
 
 	if (keys[0]) {

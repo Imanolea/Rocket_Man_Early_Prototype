@@ -1,7 +1,9 @@
 /* utilities file */
 
 
-// returns the absolute value of a number
+/* absolute value of a number
+arg(0): the number
+return: the absolute value of the number */
 int abs(int number) {
 
 	if (number < 0)
@@ -10,6 +12,9 @@ int abs(int number) {
 		return number;
 }
 
+/* reduction of the absolute value of a number
+arg(0): the number
+arg(1): the value to be subtracted from the absolute value*/
 void reduceabs(int *number, int value) {
 	int ret = *number;
 

@@ -4,6 +4,8 @@
 #include "utils.c"
 #include "engine.c"
 
+const int PERFRAME = 34; // milliseconds per iteration (34)
+
 /* keys pressed (true) or not (false)
 0: LEFT
 1: RIGHT

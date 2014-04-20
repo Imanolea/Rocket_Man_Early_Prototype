@@ -1,1 +1,1 @@
-cmd /k lcc main.c -o main.gb
+cmd /k lcc dev/main.c -o rom/main.gb
