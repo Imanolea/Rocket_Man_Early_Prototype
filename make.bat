@@ -1,0 +1,1 @@
+cmd /k lcc main.c -o main.gb
