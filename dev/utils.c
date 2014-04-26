@@ -2,8 +2,8 @@
 
 
 /* absolute value of a number
-arg(0): the number
-return: the absolute value of the number */
+@param number: the number
+@return: the absolute value of the number */
 int abs(int number) {
 
 	if (number < 0)
@@ -13,8 +13,8 @@ int abs(int number) {
 }
 
 /* reduction of the absolute value of a number
-arg(0): the number
-arg(1): the value to be subtracted from the absolute value*/
+@param number: the number
+@param value: the value to be subtracted from the absolute value*/
 void reduceabs(int *number, int value) {
 	int ret = *number;
 

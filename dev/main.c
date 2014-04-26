@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <gb/gb.h>
+#include <gb/console.h>
 #include "utils.c"
 #include "engine.c"
 
