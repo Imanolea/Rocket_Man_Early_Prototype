@@ -20,7 +20,7 @@ void reduceabs(int *number, int value) {
 
 	if (ret < 0) {
 		ret += value;
-		if (ret == -256) // compiler's fault
+		if (ret == -256)
 			
 			(*number) = 0;
 		else

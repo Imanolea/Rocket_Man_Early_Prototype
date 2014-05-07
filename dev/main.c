@@ -48,6 +48,18 @@ void recordinput(int key) {
 		keys[5] = false;
 	}
 
+	if (key & J_START) {
+		keys[6] = true;
+	} else {
+		keys[6] = false;
+	}
+
+	if (key & J_SELECT) {
+		keys[7] = true;
+	} else {
+		keys[7] = false;
+	}
+
 	processinput(keys);
 }
 
